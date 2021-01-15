@@ -230,7 +230,7 @@ footer a:hover, footer a:focus {
 
 /******** MEDIA QUERIES *********/
 /* centre counts and timer/buttons */
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .timer-container {
         justify-content: center;
         max-width: 100%;
