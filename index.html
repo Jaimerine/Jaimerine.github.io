@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link to favicon -->
+	<link type="image/png" href="assets/favicon.png" rel="icon">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Where's Molly-O</title>
+</head>
+<body>
+    
+    <!-- header start -->
+    <header>
+        <div class="banner-img">
+            <img src="assets/banner.png" alt="The 'Where's Molly-O' banner including an image of Molly dressed like 'Where's Waldo', but in pink">
+            <h1 class="sr-only">Where's Molly-O?</h1>
+        </div>
+
+        <!-- molly counts -->
+        <section>
+            <div class="molly-count">
+                <div class="missing-mollys">
+                    <h2># Missing Mollys</h2>
+                    <p class="missing count">5</p>
+                </div>
+                
+                <div class="found-mollys">
+                    <h2># Found Mollys</h2>
+                    <p class="found count">0</p>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    
+    <!-- main start -->
+    <main>
+
+        <!-- timer and start/reset buttons -->
+        <section>
+            <div class="timer-container wrapper">
+                <div class="timer">
+                    <h2>Timer:</h2>
+                    <p class="counter">00:00:00</p>
+                </div>
+                <div class="buttons">
+                    <button class="start-btn btn-highlight">Start</button>
+                    <button class = "reset-btn">Reset</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- find image -->
+        <section class="find-img-section">
+            <div class="find-img-container wrapper">
+                <img class="find-img" src="assets/wheres-molly-1.png" alt="a where's waldo-like image filled with people, tents, sea creatures and molly">
+            </div>
+        </section>
+
+    </main>        
+    
+    <!-- footer start -->
+    <footer>
+        <p>Created at <a href="https://junocollege.com" target="_blank">Juno College</a></p>
+        <p>By Aunty Jammy and Molly Robbins</p>
+    </footer>  
+
+    <!-- modal -->
+    <div id="modal" class="modal">
+        <!-- modal content -->
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <p class="modal-text">modal text</p>
+        </div>
+    </div>
+
+
+    <!-- jquery / javascript links -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
