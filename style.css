@@ -115,7 +115,7 @@ a {
 }
 
 .timer-container p {
-    width: calc(100px + 0.8vw);
+    margin-right: 10px;
 }
 
 .timer {
@@ -259,5 +259,11 @@ footer a:hover, footer a:focus {
 
     .modal-content {
         width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .timer-container {
+        flex-direction: column;
     }
 }
