@@ -122,6 +122,10 @@ a {
     display: flex;
 }
 
+.counter {
+    width: calc(90px + 1vw);
+}
+
 button {
     background-color: #f199e0;
     border-radius: 5px;
